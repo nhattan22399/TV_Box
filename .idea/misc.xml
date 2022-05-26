@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ntykn/Downloads/WibuMusic (1)/WibuMusic/app/src/main/res/drawable-v24/ic_back.xml" value="0.205" />
+        <entry key="..\:/Users/ntykn/Downloads/WibuMusic (1)/WibuMusic/app/src/main/res/drawable/botronbt.xml" value="0.205" />
+        <entry key="..\:/Users/ntykn/Downloads/WibuMusic (1)/WibuMusic/app/src/main/res/drawable/ic_back.xml" value="0.205" />
+        <entry key="..\:/Users/ntykn/Downloads/WibuMusic (1)/WibuMusic/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
+        <entry key="..\:/Users/ntykn/Downloads/WibuMusic (1)/WibuMusic/app/src/main/res/drawable/tab_background.xml" value="0.205" />
+        <entry key="..\:/Users/ntykn/Downloads/WibuMusic (1)/WibuMusic/app/src/main/res/drawable/tab_select.xml" value="0.205" />
+        <entry key="..\:/Users/ntykn/Downloads/WibuMusic (1)/WibuMusic/app/src/main/res/drawable/tab_selector.xml" value="0.205" />
+        <entry key="..\:/Users/ntykn/Downloads/WibuMusic (1)/WibuMusic/app/src/main/res/layout/activity_home.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/ntykn/Downloads/WibuMusic (1)/WibuMusic/app/src/main/res/layout/activity_load.xml" value="0.15172101449275363" />
+        <entry key="..\:/Users/ntykn/Downloads/WibuMusic (1)/WibuMusic/app/src/main/res/layout/activity_popular.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/ntykn/Downloads/WibuMusic (1)/WibuMusic/app/src/main/res/layout/activity_search.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/ntykn/Downloads/WibuMusic (1)/WibuMusic/app/src/main/res/layout/activity_showdetails.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/ntykn/Downloads/WibuMusic (1)/WibuMusic/app/src/main/res/layout/fragment_popular.xml" value="0.15172101449275363" />
+        <entry key="..\:/Users/ntykn/Downloads/WibuMusic (1)/WibuMusic/app/src/main/res/layout/fragment_popular_hot.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/ntykn/Downloads/WibuMusic (1)/WibuMusic/app/src/main/res/layout/item_find.xml" value="0.16" />
+        <entry key="..\:/Users/ntykn/Downloads/WibuMusic (1)/WibuMusic/app/src/main/res/layout/item_movie.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vla"
+    tools:context=".activity.SearchActivity"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <EditText
+        android:background="#736F6F"
+        android:id="@+id/EdtSearch"
+        android:layout_width="340dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:hint=" Enter movie name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+    <ImageButton
+        android:layout_marginRight="10dp"
+        android:id="@+id/btnSe"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@drawable/ic_search"
+        app:tint="@color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+</LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Category"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="italic|bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_weight="1"
+            app:lottie_rawRes="@raw/turtle"
+            android:scaleType="centerCrop"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="8dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck,SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            app:lottie_rawRes="@raw/action"
+            android:scaleType="centerCrop"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_weight="1"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="124dp" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:padding="15dp"
+        app:lottie_rawRes="@raw/lf30_editor_txrtpouf"
+        android:scaleType="centerCrop"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_weight="1"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="233dp" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        app:lottie_rawRes="@raw/police"
+        android:scaleType="centerCrop"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_weight="1"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="233dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textStyle="italic|bold"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favorite film"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:padding="5dp"
+        android:id="@+id/rcv_find"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomniew"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="4dp"
+            android:elevation="2dp"
+            android:background="@drawable/round"
+            app:itemIconTint="@color/white"
+            app:itemTextColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:menu="@menu/item_menu"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/slide.photo"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/txt.slide.date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Name Movie"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:fontFamily="cursive"
+            android:layout_marginLeft="10dp"></TextView>
+
+        <TextView
+            android:id="@+id/txt.slide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="170dp"
+            android:maxLines="1"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="cursive"
+            android:text="Name Movie"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textStyle="bold"></TextView>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

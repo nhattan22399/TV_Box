@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginGGActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:gravity="center"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:gravity="center"
+        android:text="Mail"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/botronbt"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:orientation="horizontal"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp">
+
+        <Button
+            android:id="@+id/logoutbt"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:backgroundTint="#E81640"
+            android:gravity="center"
+            android:text="log out"
+            android:textStyle="bold"
+            tools:ignore="DuplicateIds"></Button>
+
+        <Button
+            android:id="@+id/logbt"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#1FB625"
+            android:gravity="center"
+            android:text="log in"
+            android:textStyle="bold"
+            tools:ignore="DuplicateIds"></Button>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

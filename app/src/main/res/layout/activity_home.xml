@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.LoadActivity"
+    android:background="@color/vla">
+
+
+
+
+    <LinearLayout
+        android:background="#0A0D20"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginBottom="0dp"
+         >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_weight="0.3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/avatar.user"></de.hdodenhof.circleimageview.CircleImageView>
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:fontFamily="monospace"
+            android:id="@+id/nameuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:text="TV Movie"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="Suspicious0dp" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:text="Let's watch together"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="Suspicious0dp" />
+        </LinearLayout>
+        <ImageView
+            android:layout_weight="0.2"
+            android:padding="2dp"
+            android:contentDescription="@string/app_name"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_search"
+            android:id="@+id/imgseach"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            app:tint="@color/white" />
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/slide.rcv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+
+
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic|bold"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:text="TRENDING"></TextView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="horizontal"
+        android:id="@+id/rcv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomniew"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="4dp"
+            android:elevation="2dp"
+            android:background="@drawable/round"
+            app:itemIconTint="@color/white"
+            app:itemTextColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:menu="@menu/item_menu"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

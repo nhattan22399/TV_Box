@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#232121"
+    tools:context=".activity.AccountActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:layout_marginTop="30dp"
+        android:id="@+id/imageViewav"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/txtusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/txtusermail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Liên kết tài khoản"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/fb"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/tw"
+            android:layout_weight="1"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/zalo1"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:drawableLeft="@drawable/ic_setting"
+        android:layout_gravity="left"
+        android:layout_marginTop="30dp"
+        android:text=" Cài đặt tài khoản"
+        android:textColor="@color/white"/>
+    <TextView
+        android:gravity="center"
+        android:drawableLeft="@drawable/ic_capnhat"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:text=" Cập nhật thông tin"
+        android:textColor="@color/white"/>
+    <TextView
+        android:gravity="center"
+        android:drawableLeft="@drawable/ic_trogiup"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:text=" Trợ giúp"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/btlogout"
+        android:gravity="center"
+        android:drawableLeft="@drawable/ic_logout"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        android:text=" Đăng xuất"
+        android:textColor="@color/white"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomniew"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="4dp"
+            android:elevation="2dp"
+            android:background="@drawable/round"
+            app:itemIconTint="@color/white"
+            app:itemTextColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:menu="@menu/item_menu"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

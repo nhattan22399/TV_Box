@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "191348064809",
+    "project_id": "tvmusic-1f35d",
+    "storage_bucket": "tvmusic-1f35d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191348064809:android:07e9d48420a167ee559238",
+        "android_client_info": {
+          "package_name": "com.example.wibumusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191348064809-vo2vd4rteaorpmna6pcgi60ju950kk8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB59v_cC7qLCehnY_qGsaZKuyXMD0syOHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191348064809-vo2vd4rteaorpmna6pcgi60ju950kk8q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
